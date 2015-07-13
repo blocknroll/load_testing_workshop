@@ -11,12 +11,12 @@ gem 'faker'
 gem 'rails_12factor', group: :production
 gem 'skylight'
 gem 'newrelic_rpm'
+gem 'poltergeist'
+gem 'capybara'
 
 group :development, :test do
-  gem 'poltergeist'
   gem 'spring'
   gem 'rspec-rails'
-  gem 'capybara'
   gem 'guard'
   gem 'guard-rspec'
   #gem 'rb-fsevent'
